@@ -1,0 +1,38 @@
+{%load static%}
+<link href="customssheet" href='{% static "customs.css"%}'>
+
+<H1>
+     Inspire  </H1>                   <h9>     Australia   Canada   New Zealand    <h/9> <br>
+ 
+        
+
+
+    <img src="" alt="">                       <img src="" alt="">
+
+                  
+              
+                     <h3>
+                         Contact Form    </h3>  
+                         
+<form action="prospects/" method="post">{%csrf_token%}              
+    <h1>          
+       Email       <textarea>'text' </textarea><br>
+       First Name <br><textarea>'text'</textarea><br>
+       Last Name  <br><textarea> 'text'</textarea><br>
+       Comments   <br><textarea> 'text'</textarea><br> 
+       <input type="submit" name=" submit">
+   </h1>   </form>  
+       
+       
+       
+                 
+                    
+                 
+                  
+                 <tr>                                                                                                                                                                                                                                                
+                       <th> <a href="{% url 'about/' %}">About Us</a></th> <th><a href="{% url 'navigation/' %}">Navigation listing</a> </th><th><a href="{% url 'available/' %}">Available School Section</a> </th><a href="{% url 'email/' %}">For Notifications and Newsletters</a></th>       
+                       </tr>
+                     
+                
+          
+               
