@@ -1,0 +1,14 @@
+python ≥ 3.5
+fastapi
+pydantic
+fastapi-sqlalchemy
+alembic
+psycopg2
+uvicorn
+passlib
+bcrypt
+python-jose
+asyncpg
+Pillow
+aiofiles
+multipart
